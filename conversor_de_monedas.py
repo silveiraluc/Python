@@ -9,7 +9,8 @@ MXL = 20
 def conversor(moneda):
     dolares = int(input("Cuantos dolares tenes?"))
     pesos = dolares * moneda
-    print(f"Tienes {pesos} pesos")
+   # print(f"Tienes {pesos} pesos")
+    return pesos
 
 
 print(f"Bienvenido al conversor de monedas definitivo!")
@@ -22,10 +23,13 @@ print("")
 #opcion = int(opcion)
 
 if opcion == 1:
-    conversor(ARS)
+    pesos_argentinos = conversor(ARS)
+    print(f"Tienes {pesos_argentinos} pesos argentinos")
 elif opcion ==2:
-    conversor(COP)
+    pesos_colombianos = conversor(COP)
+    print(f"Tienes {pesos_colombianos} pesos colombianos")
 elif opcion == 3:
-    conversor(MXL)
+    pesos_mexicanos = conversor(MXL)
+    print(f"Tienes {pesos_mexicanos} pesos mexicanos")
 else:
     print("Escribe una opcion correcta")
