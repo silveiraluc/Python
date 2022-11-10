@@ -8,9 +8,9 @@ MXL = 20
 
 print(f"Bienvenido al conversor de monedas definitivo!")
 print(f"Elije una de las siguientes opciones: ")
-print("1 - Dolares a pesos argentinos")
-print("2 - Dolares a pesos colombianos")
-print("3 - Dolares a pesos mexicanos")
+print("1 - Dólares a pesos argentinos")
+print("2 - Dólares a pesos colombianos")
+print("3 - Dólares a pesos mexicanos")
 opcion = input("Cual es la opcion?")
 opcion = int(opcion)
 
