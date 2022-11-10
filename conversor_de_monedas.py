@@ -11,8 +11,9 @@ print(f"Elije una de las siguientes opciones: ")
 print("1 - Dólares a pesos argentinos")
 print("2 - Dólares a pesos colombianos")
 print("3 - Dólares a pesos mexicanos")
-opcion = input("Cual es la opcion?")
-opcion = int(opcion)
+opcion = int(input("Cual es la opcion?"))
+print("")
+#opcion = int(opcion)
 
 if opcion == 1:
     dolares = int(input("Cuantos dolares tenes?"))
