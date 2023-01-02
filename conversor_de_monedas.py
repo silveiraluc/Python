@@ -1,4 +1,4 @@
-import os
+reraimport os
 os.system("cls")
 
 USD = 1
