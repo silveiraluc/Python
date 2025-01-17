@@ -2,7 +2,7 @@ import os
 os.system("cls")
 
 USD = 1
-ARS = 420
+ARS = 1180
 COP = 4600
 MXL = 20
 
